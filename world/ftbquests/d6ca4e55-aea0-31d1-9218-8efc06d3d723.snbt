@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "d6ca4e55aea031d192188efc06d3d723"
+	name: "AnonSOB#d6ca4e55"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1722533492987L
+		2574E7CF699D5B45: 1722533492987L
+		0470194500CBE26C: 1722533492987L
+		0000000000000001: 1722533492987L
+	}
+	completed: {
+		2574E7CF699D5B45: 1722533492988L
+		0470194500CBE26C: 1722533492988L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}
