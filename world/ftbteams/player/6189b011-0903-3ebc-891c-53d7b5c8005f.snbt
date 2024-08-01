@@ -1,0 +1,17 @@
+{
+	id: "6189b011-0903-3ebc-891c-53d7b5c8005f"
+	type: "player"
+	player_name: "nachocheesefries"
+	ranks: {
+		6189b011-0903-3ebc-891c-53d7b5c8005f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "nachocheesefries"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E5FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

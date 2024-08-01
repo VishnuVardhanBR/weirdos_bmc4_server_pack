@@ -1,0 +1,17 @@
+{
+	id: "e380f701-1784-3be2-8e16-d0a639995720"
+	type: "player"
+	player_name: "Boomin_Metro"
+	ranks: {
+		e380f701-1784-3be2-8e16-d0a639995720: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Boomin_Metro"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF9159"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

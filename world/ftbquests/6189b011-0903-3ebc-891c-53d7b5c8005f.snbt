@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "6189b01109033ebc891c53d7b5c8005f"
+	name: "nachocheesefries#6189b011"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1722508333457L
+		2574E7CF699D5B45: 1722508333457L
+		0470194500CBE26C: 1722508333457L
+		0000000000000001: 1722508333457L
+	}
+	completed: {
+		2574E7CF699D5B45: 1722508333458L
+		0470194500CBE26C: 1722508333458L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

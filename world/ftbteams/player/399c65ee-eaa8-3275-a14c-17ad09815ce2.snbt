@@ -1,0 +1,17 @@
+{
+	id: "399c65ee-eaa8-3275-a14c-17ad09815ce2"
+	type: "player"
+	player_name: "Vain_exe"
+	ranks: {
+		399c65ee-eaa8-3275-a14c-17ad09815ce2: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Vain_exe"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8859FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

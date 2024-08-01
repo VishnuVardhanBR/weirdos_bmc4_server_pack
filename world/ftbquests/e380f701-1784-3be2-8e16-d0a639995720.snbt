@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "e380f70117843be28e16d0a639995720"
+	name: "Boomin_Metro#e380f701"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1722507030626L
+		2574E7CF699D5B45: 1722507030626L
+		0470194500CBE26C: 1722507030626L
+		0000000000000001: 1722507030626L
+	}
+	completed: {
+		2574E7CF699D5B45: 1722507030627L
+		0470194500CBE26C: 1722507030627L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

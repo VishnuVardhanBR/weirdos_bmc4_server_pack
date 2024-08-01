@@ -1,0 +1,17 @@
+{
+	id: "e76a9e47-4765-3e34-a239-85288b648c3f"
+	type: "player"
+	player_name: "Bonda"
+	ranks: {
+		e76a9e47-4765-3e34-a239-85288b648c3f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Bonda"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59C7FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
