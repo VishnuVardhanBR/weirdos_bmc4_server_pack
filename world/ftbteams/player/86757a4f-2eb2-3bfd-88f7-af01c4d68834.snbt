@@ -1,0 +1,17 @@
+{
+	id: "86757a4f-2eb2-3bfd-88f7-af01c4d68834"
+	type: "player"
+	player_name: "WeAreBiscuits"
+	ranks: {
+		86757a4f-2eb2-3bfd-88f7-af01c4d68834: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "WeAreBiscuits"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9359FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
