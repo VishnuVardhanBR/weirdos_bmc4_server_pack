@@ -1,0 +1,17 @@
+{
+	id: "698eabc9-a6cc-43ee-af67-3cb59432a63f"
+	type: "party"
+	owner: "e76a9e47-4765-3e34-a239-85288b648c3f"
+	ranks: {
+		e76a9e47-4765-3e34-a239-85288b648c3f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "seggs"
+		"ftbteams:description": "amogus?"
+		"ftbteams:color": "#59C7FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [{ from: "00000000-0000-0000-0000-000000000000", date: 1722597607387L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Bonda\"}]}" }]
+	extra: { }
+}

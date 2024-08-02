@@ -2,9 +2,7 @@
 	id: "e76a9e47-4765-3e34-a239-85288b648c3f"
 	type: "player"
 	player_name: "Bonda"
-	ranks: {
-		e76a9e47-4765-3e34-a239-85288b648c3f: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Bonda"
 		"ftbteams:description": ""
