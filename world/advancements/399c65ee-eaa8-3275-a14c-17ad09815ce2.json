@@ -9483,8 +9483,10 @@
   "deep_aether:explore_aether": {
     "criteria": {
       "aether:skyroot_woodland": "2024-08-02 23:22:32 +0530",
+      "deep_aether:aerglow_forest": "2024-08-04 00:42:05 +0530",
       "deep_aether:mystic_aerglow_forest": "2024-08-02 23:22:28 +0530",
-      "aether:skyroot_meadow": "2024-08-02 23:37:50 +0530"
+      "aether:skyroot_meadow": "2024-08-02 23:37:50 +0530",
+      "deep_aether:yagroot_swamp": "2024-08-04 00:33:46 +0530"
     },
     "done": false
   },
@@ -11888,15 +11890,615 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-08-03 18:47:15 +0530"
+    },
+    "done": true
+  },
   "aether:recipes/combat/diamond_boots_repairing": {
     "criteria": {
       "has_diamond_boots": "2024-08-03 18:47:29 +0530"
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_chestplate_repairing": {
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
     "criteria": {
-      "has_diamond_chestplate": "2024-08-03 18:47:15 +0530"
+      "has_moa_egg": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/stratus_ingot_from_stratus_block": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_base_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether:silver_dungeon": {
+    "criteria": {
+      "kill_valkyrie_queen": "2024-08-04 01:24:51 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_base": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/cobbled_aseterite_slab": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_ring_from_freezing": {
+    "criteria": {
+      "has_ring": "2024-08-04 00:43:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_pillar": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_slab": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword_repairing": {
+    "criteria": {
+      "has_zanite_sword": "2024-08-04 00:57:53 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/angelic_slab_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_boots": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2024-08-04 00:49:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_slab_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_boots_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/cobbled_aseterite_wall_from_cobbled_aseterite_stonecutting": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/smelt_raw_veridium": {
+    "criteria": {
+      "has_raw_veridium": "2024-08-04 00:39:35 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/vanilla_gummy_swet": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 00:41:23 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/enchanted_dart_enchanting": {
+    "criteria": {
+      "has_golden_dart": "2024-08-04 00:42:47 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_brick": {
+    "criteria": {
+      "has_item": "2024-08-04 00:22:33 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/misc/stratus_smithing_template_from_gravitite": {
+    "criteria": {
+      "has_stratus_smithing_template": "2024-08-04 01:25:27 +0530"
+    },
+    "done": true
+  },
+  "aether:valkyrie_loot": {
+    "criteria": {
+      "valkyrie_helmet": "2024-08-04 01:25:20 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/stratus_shield_stratus_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/raw_veridium_block": {
+    "criteria": {
+      "has_raw_veridium": "2024-08-04 00:39:35 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_hoe_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/skyjade_shield": {
+    "criteria": {
+      "has_skyjade_gemstone": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/stratus_block": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyjade_block": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_pendant_from_freezing": {
+    "criteria": {
+      "has_pendant": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_sword": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/skyjade_knife": {
+    "criteria": {
+      "has_gems/skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/misc/stratus_smithing_template": {
+    "criteria": {
+      "has_stratus_smithing_template": "2024-08-04 01:25:27 +0530"
+    },
+    "done": true
+  },
+  "aether:lance_loot": {
+    "criteria": {
+      "lance_loot": "2024-08-04 00:49:50 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_chestplate_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_ring_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/pillar_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_leggings_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/vanilla_swet_jelly": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 00:41:23 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyjade_from_skyjade_block": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_chestplate": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "cuisinedelight:recipes/misc/cuisine_skillet": {
+    "criteria": {
+      "has_skillet": "2024-08-04 00:06:09 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_shovel": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_axe": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/cobbled_aseterite_stairs_from_cobbled_aseterite_stonecutting": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/light_angelic_stone_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/angelic_stairs_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_sword_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:icestone": {
+    "criteria": {
+      "icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_pillar_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_hoe": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/icestone_wall_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/angelic_stairs": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_crimson": "2024-08-04 00:03:03 +0530"
+    },
+    "done": false
+  },
+  "twigs:recipes/paper_lanterns/crimson_roots_paper_lantern": {
+    "criteria": {
+      "has_item": "2024-08-04 00:06:29 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/aseterite": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_gloves": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_stairs_from_icestone_stonecutting": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-08-04 00:07:36 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/cobbled_aseterite_wall": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_helmet": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/pillar_top_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant_repairing": {
+    "criteria": {
+      "has_zanite_pendant": "2024-08-04 00:57:54 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2024-08-04 00:58:13 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_pickaxe": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/smithing/stratus_knife": {
+    "criteria": {
+      "has_ingots/stratus": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_axe_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/angelic_slab": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_pickaxe_repairing": {
+    "criteria": {
+      "has_skyroot_pickaxe": "2024-08-04 00:43:18 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_gloves_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe_repairing": {
+    "criteria": {
+      "has_zanite_pickaxe": "2024-08-04 00:43:05 +0530"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2024-08-04 00:58:13 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/blast_raw_veridium": {
+    "criteria": {
+      "has_raw_veridium": "2024-08-04 00:39:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-08-04 01:16:30 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/angelic_wall_from_angelic_stone_stonecutting": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_shovel_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/cobbled_aseterite_stairs": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:42:57 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/angelic_wall": {
+    "criteria": {
+      "has_angelic_stone": "2024-08-04 00:57:56 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/icestone_wall": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring_repairing": {
+    "criteria": {
+      "has_zanite_ring": "2024-08-04 00:57:10 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart": {
+    "criteria": {
+      "has_golden_dart": "2024-08-04 00:42:47 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves_repairing": {
+    "criteria": {
+      "has_iron_gloves": "2024-08-04 01:26:46 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:double_jump": {
+    "criteria": {
+      "double_jump": "2024-08-04 00:50:16 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/icestone_stairs": {
+    "criteria": {
+      "has_icestone": "2024-08-04 00:56:55 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_pickaxe_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "aether:regen_stone": {
+    "criteria": {
+      "regen_stone": "2024-08-04 01:25:36 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/cobbled_aseterite_slab_from_cobbled_aseterite_stonecutting": {
+    "criteria": {
+      "has_cobbled_aseterite": "2024-08-04 00:37:29 +0530"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_silt_balls": {
+    "criteria": {
+      "has_item": "2024-08-04 00:22:33 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/stratus_helmet_smithing": {
+    "criteria": {
+      "has_stratus_ingot": "2024-08-04 01:25:25 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_leggings": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_ring": {
+    "criteria": {
+      "has_skyjade": "2024-08-04 00:57:07 +0530"
     },
     "done": true
   },
