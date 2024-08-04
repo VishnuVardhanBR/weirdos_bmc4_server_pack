@@ -78,6 +78,7 @@
       "orchard": "2024-08-01 18:14:49 +0530",
       "lavender_forest": "2024-08-01 16:04:34 +0530",
       "mediterranean_forest": "2024-08-01 22:20:19 +0530",
+      "coniferous_forest": "2024-08-04 22:07:07 +0530",
       "spider_nest": "2024-08-01 22:21:32 +0530",
       "pasture": "2024-08-01 18:14:52 +0530",
       "prairie": "2024-08-01 17:16:27 +0530"
@@ -7891,12 +7892,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2024-08-04 16:24:35 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2024-08-04 16:19:19 +0530"
@@ -7906,6 +7901,60 @@
   "twigs:recipes/paper_lanterns/allium_paper_lantern": {
     "criteria": {
       "has_item": "2024-08-04 16:19:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-08-04 16:24:35 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2024-08-04 22:00:28 +0530"
+    },
+    "done": false
+  },
+  "aether:recipes/tools/stone_hoe_repairing": {
+    "criteria": {
+      "has_stone_hoe": "2024-08-04 21:59:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-08-04 22:06:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:06:42 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_boots_repairing": {
+    "criteria": {
+      "has_iron_boots": "2024-08-04 21:45:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-08-04 22:06:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-08-04 22:06:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-08-04 22:00:28 +0530"
     },
     "done": true
   },

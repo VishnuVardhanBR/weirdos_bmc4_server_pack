@@ -5877,6 +5877,7 @@
     "criteria": {
       "cabbage": "2024-08-02 16:32:18 +0530",
       "tomato": "2024-08-02 16:27:56 +0530",
+      "rice": "2024-08-04 22:41:47 +0530",
       "beetroot": "2024-08-02 16:27:31 +0530",
       "wheat": "2024-08-02 16:25:58 +0530",
       "melon": "2024-08-02 16:27:44 +0530",
@@ -7980,15 +7981,15 @@
     },
     "done": true
   },
-  "aether:phoenix_armor": {
+  "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "phoenix_chestplate": "2024-08-04 17:17:27 +0530"
+      "has_emerald": "2024-08-04 16:04:47 +0530"
     },
     "done": true
   },
-  "aether:recipes/tools/cold_parachute": {
+  "advancednetherite:recipes/misc/netherite_emerald_ingot": {
     "criteria": {
-      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
+      "has_TagKey[minecraft:item / forge:gems/emerald]": "2024-08-04 16:04:47 +0530"
     },
     "done": true
   },
@@ -7998,93 +7999,15 @@
     },
     "done": true
   },
-  "aether:mount_phyg": {
-    "criteria": {
-      "mount_phyg": "2024-08-04 16:47:46 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2024-08-04 16:07:08 +0530"
     },
     "done": true
   },
-  "aether_redux:recipes/vanilla_gummy_swet": {
-    "criteria": {
-      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/blue_swet_jelly": {
-    "criteria": {
-      "has_swet_ball": "2024-08-04 17:02:25 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/blue_gummy_swet": {
-    "criteria": {
-      "has_swet_ball": "2024-08-04 17:02:25 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/redstone/swet_sticky_piston": {
-    "criteria": {
-      "has_swet_balls": "2024-08-04 16:52:05 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2024-08-04 16:04:47 +0530"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/pancake_fd": {
-    "criteria": {
-      "has_sugar": "2024-08-04 16:52:06 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/food/vanilla_swet_jelly": {
-    "criteria": {
-      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
-    },
-    "done": true
-  },
-  "delightful:recipes/food/marshmallow_stick": {
-    "criteria": {
-      "has_sugar": "2024-08-04 16:52:06 +0530"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sugar_cube": {
-    "criteria": {
-      "has_sugar": "2024-08-04 16:52:06 +0530"
-    },
-    "done": true
-  },
-  "aether:gold_dungeon": {
-    "criteria": {
-      "kill_sun_spirit": "2024-08-04 17:17:10 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/blue_aercloud_freezing": {
-    "criteria": {
-      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2024-08-04 16:07:08 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/swet_lead": {
-    "criteria": {
-      "has_swet_balls": "2024-08-04 16:52:05 +0530"
     },
     "done": true
   },
@@ -8100,9 +8023,15 @@
     },
     "done": true
   },
-  "aether:recipes/redstone/swet_slime_block": {
+  "friendsandfoes:recipes/redstone/copper_button": {
     "criteria": {
-      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "aether:mount_phyg": {
+    "criteria": {
+      "mount_phyg": "2024-08-04 16:47:46 +0530"
     },
     "done": true
   },
@@ -8112,15 +8041,63 @@
     },
     "done": true
   },
-  "supplementaries:recipes/candy": {
+  "deep_aether:recipes/food/cooked_quail_from_smoker": {
+    "criteria": {
+      "has_raw_quail": "2024-08-04 16:51:43 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/vanilla_gummy_swet": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/vanilla_swet_jelly": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
     "criteria": {
       "has_sugar": "2024-08-04 16:52:06 +0530"
     },
     "done": true
   },
-  "deep_aether:recipes/food/cooked_quail_from_smoker": {
+  "delightful:recipes/food/marshmallow_stick": {
     "criteria": {
-      "has_raw_quail": "2024-08-04 16:51:43 +0530"
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sugar_cube": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candy": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
     },
     "done": true
   },
@@ -8130,15 +8107,15 @@
     },
     "done": true
   },
-  "minecraft:end/levitate": {
+  "aether:recipes/tools/cold_parachute": {
     "criteria": {
-      "levitated": "2024-08-04 17:09:35 +0530"
+      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
     },
     "done": true
   },
-  "advancednetherite:recipes/misc/netherite_emerald_ingot": {
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:gems/emerald]": "2024-08-04 16:04:47 +0530"
+      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
     },
     "done": true
   },
@@ -8148,9 +8125,123 @@
     },
     "done": true
   },
-  "friendsandfoes:recipes/redstone/copper_button": {
+  "aether_redux:recipes/blue_swet_jelly": {
     "criteria": {
-      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+      "has_swet_ball": "2024-08-04 17:02:25 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_gummy_swet": {
+    "criteria": {
+      "has_swet_ball": "2024-08-04 17:02:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-08-04 17:09:35 +0530"
+    },
+    "done": true
+  },
+  "aether:gold_dungeon": {
+    "criteria": {
+      "kill_sun_spirit": "2024-08-04 17:17:10 +0530"
+    },
+    "done": true
+  },
+  "aether:phoenix_armor": {
+    "criteria": {
+      "phoenix_chestplate": "2024-08-04 17:17:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-08-04 22:35:12 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-08-04 22:35:12 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:34:00 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_tomato": "2024-08-04 22:34:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2024-08-04 22:34:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:34:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2024-08-04 22:34:00 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:35:12 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:34:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2024-08-04 22:34:42 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 22:34:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-08-04 22:35:12 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2024-08-04 22:41:47 +0530"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2024-08-04 23:49:37 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2024-08-04 22:34:42 +0530"
     },
     "done": true
   },

@@ -1810,6 +1810,7 @@
       "minecraft:creeper": "2024-08-02 15:52:48 +0530",
       "minecraft:slime": "2024-08-01 23:31:27 +0530",
       "quark:forgotten": "2024-08-01 19:40:41 +0530",
+      "minecraft:phantom": "2024-08-04 22:42:29 +0530",
       "minecraft:zombified_piglin": "2024-08-03 16:46:22 +0530",
       "minecraft:witch": "2024-08-01 21:56:17 +0530",
       "minecraft:wither_skeleton": "2024-08-01 18:53:27 +0530",
@@ -8372,6 +8373,7 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
+      "phantom": "2024-08-04 22:42:29 +0530",
       "warden": "2024-08-02 00:11:50 +0530"
     },
     "done": false
@@ -12520,66 +12522,27 @@
     },
     "done": true
   },
-  "everycomp:recipes/decorations/af/aether/skyroot_shutter": {
+  "deep_aether:recipes/building_blocks/yagroot_planks": {
     "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
+      "has_logs": "2024-08-04 16:37:26 +0530"
     },
     "done": true
   },
-  "aether:recipes/building_blocks/mossy_holystone_slab": {
+  "deep_aether:recipes/decorations/yagroot_wall": {
     "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+      "has_yagroot_log": "2024-08-04 16:37:26 +0530"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/tf/aether/skyroot_banister": {
+  "deep_aether:recipes/building_blocks/yagroot_wood": {
     "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
+      "has_log": "2024-08-04 16:37:26 +0530"
     },
     "done": true
   },
   "everycomp:recipes/decorations/q/deep_aether/hollow_yagroot_log": {
     "criteria": {
       "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_fence": {
-    "criteria": {
-      "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/material/blasted_ironwood_ingot": {
-    "criteria": {
-      "has_item": "2024-08-04 16:43:36 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:arborist": {
-    "criteria": {
-      "canopy_sapling": "2024-08-04 19:14:06 +0530",
-      "twilight_oak_log": "2024-08-04 18:05:28 +0530",
-      "twilight_oak_wood": "2024-08-04 18:56:51 +0530",
-      "twilight_oak_sapling": "2024-08-04 18:05:30 +0530"
-    },
-    "done": false
-  },
-  "everycomp:recipes/decorations/q/aether/skyroot_post": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/uncrafting_table": {
-    "criteria": {
-      "has_uncrafting_table": "2024-08-04 18:55:25 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/aether/vertical_skyroot_planks": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
     },
     "done": true
   },
@@ -12592,12 +12555,6 @@
   "everycomp:recipes/decorations/tw/deep_aether/yagroot_table": {
     "criteria": {
       "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/aether/sign_post_skyroot": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
     },
     "done": true
   },
@@ -12625,34 +12582,9 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/skyroot_grindstone_holystone_slab": {
-    "criteria": {
-      "has_holystone_slab": "2024-08-04 16:46:14 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/misc/steeleaf_knife": {
-    "criteria": {
-      "has_steeleaf_ingot": "2024-08-04 19:12:44 +0530"
-    },
-    "done": true
-  },
   "deep_aether:recipes/decorations/yagroot_sign": {
     "criteria": {
       "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/twilight_oak_planks": {
-    "criteria": {
-      "has_item": "2024-08-04 18:05:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_lich": {
-    "criteria": {
-      "kill_naga": "2024-08-04 18:18:23 +0530",
-      "was_in_fight": "2024-08-04 18:30:32 +0530"
     },
     "done": true
   },
@@ -12662,130 +12594,15 @@
     },
     "done": true
   },
-  "everycomp:recipes/decorations/q/aether/stripped_skyroot_post": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "aether:mount_phyg": {
-    "criteria": {
-      "mount_phyg": "2024-08-04 16:38:32 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/hot_cocoa": {
-    "criteria": {
-      "has_any_ingredient": "2024-08-04 16:46:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_tile_wall_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/aether/skyroot_lattice": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_knights": {
-    "criteria": {
-      "previous_progression": "2024-08-04 18:36:44 +0530",
-      "was_in_fight": "2024-08-04 18:51:57 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/blue_swet_jelly": {
-    "criteria": {
-      "has_swet_ball": "2024-08-04 17:45:31 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/enchant_mossy_holystone": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hollow_skyroot_log_from_skyroot_log_stonecutting": {
-    "criteria": {
-      "has_skyroot_log": "2024-08-04 17:02:21 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/aether/skyroot_table": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:magic_map_focus": {
-    "criteria": {
-      "focus": "2024-08-04 18:32:29 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_naga": {
-    "criteria": {
-      "was_in_fight": "2024-08-04 18:18:23 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/aether/skyroot_sanded_wood": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/aether/skyroot_parquet": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_tile_stairs_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/aether/skyroot_trapped_chest": {
-    "criteria": {
-      "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/af/deep_aether/yagroot_table": {
     "criteria": {
       "has_planks": "2024-08-04 16:37:28 +0530"
     },
     "done": true
   },
-  "aether:recipes/decorations/mossy_holystone_wall_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/feather_block_uncrafting": {
-    "criteria": {
-      "has_feather_block": "2024-08-04 18:55:06 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/q/deep_aether/stripped_yagroot_post": {
     "criteria": {
       "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
     },
     "done": true
   },
@@ -12801,21 +12618,375 @@
     },
     "done": true
   },
-  "aether_redux:recipes/blue_gummy_swet": {
-    "criteria": {
-      "has_swet_ball": "2024-08-04 17:45:31 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/building_blocks/db/deep_aether/yagroot_support": {
     "criteria": {
       "has_planks": "2024-08-04 16:37:28 +0530"
     },
     "done": true
   },
-  "twilightforest:recipes/misc/naga_banner_pattern": {
+  "deep_aether:recipes/redstone/yagroot_door": {
     "criteria": {
-      "has_trophy": "2024-08-04 18:36:49 +0530"
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/yagroot_ladder": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/deep_aether/yagroot_beehive": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/vertical_yagroot_planks": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/yagroot_trapped_chest": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/redstone/yagroot_pressure_plate": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/yagroot_slab": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_seat": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_beam": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/deep_aether/item_shelf_yagroot": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_parquet": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_lattice": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/deep_aether/sign_post_yagroot": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/deep_aether/yagroot_chair": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_palisade": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/bp/deep_aether/yagroot_backpack_shelf": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/redstone/yagroot_fence_gate": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/yagroot_bookshelf": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/redstone/yagroot_button": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/deep_aether/yagroot_shelf": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/deep_aether/yagroot_flower_box": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/yagroot_post": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/deep_aether/yagroot_chest": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_sanded_wood": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/transportation/yagroot_boat": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/deep_aether/yagroot_banister": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/deep_aether/hollow_yagroot_log": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/yagroot_fence": {
+    "criteria": {
+      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/deep_aether/yagroot_bench": {
+    "criteria": {
+      "has_planks": "2024-08-04 16:37:28 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2024-08-04 16:37:30 +0530"
+    },
+    "done": true
+  },
+  "aether:mount_phyg": {
+    "criteria": {
+      "mount_phyg": "2024-08-04 16:38:32 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_particle_spawner": {
+    "criteria": {
+      "has_jar": "2024-08-04 16:42:57 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/blasted_ironwood_ingot": {
+    "criteria": {
+      "has_item": "2024-08-04 16:43:36 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/smelted_ironwood_ingot": {
+    "criteria": {
+      "has_item": "2024-08-04 16:43:36 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/twilight_spring": {
+    "criteria": {
+      "has_raw_ironwood": "2024-08-04 16:43:36 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map_focus": {
+    "criteria": {
+      "has_berries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/torchberries_crate": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/cooking/torchberry_juice": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/twilight_ice_cream": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/torchberry_cookie": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/berry_stick": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/torchberry_pie": {
+    "criteria": {
+      "has_torchberries": "2024-08-04 16:45:59 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_grindstone_holystone_slab": {
+    "criteria": {
+      "has_holystone_slab": "2024-08-04 16:46:14 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 16:46:28 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-08-04 16:46:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hollow_skyroot_log_from_skyroot_log_stonecutting": {
+    "criteria": {
+      "has_skyroot_log": "2024-08-04 17:02:21 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_wood": {
+    "criteria": {
+      "has_log": "2024-08-04 17:02:21 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_planks": {
+    "criteria": {
+      "has_logs": "2024-08-04 17:02:21 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_shutter": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/aether/skyroot_banister": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fence": {
+    "criteria": {
+      "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_post": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/vertical_skyroot_planks": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/aether/sign_post_skyroot": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/stripped_skyroot_post": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_lattice": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_table": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_sanded_wood": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_parquet": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_trapped_chest": {
+    "criteria": {
+      "has_planks": "2024-08-04 17:03:56 +0530"
     },
     "done": true
   },
@@ -12831,39 +13002,9 @@
     },
     "done": true
   },
-  "deep_aether:recipes/building_blocks/yagroot_planks": {
-    "criteria": {
-      "has_logs": "2024-08-04 16:37:26 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/compressed_blocks/ironwood_block": {
-    "criteria": {
-      "has_item": "2024-08-04 19:09:54 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/twilight_oak_wood": {
-    "criteria": {
-      "has_item": "2024-08-04 18:05:28 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/building_blocks/db/aether/skyroot_seat": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_hunter": {
-    "criteria": {
-      "skeleton_druid": "2024-08-04 18:05:16 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/redstone/yagroot_door": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
     },
     "done": true
   },
@@ -12891,42 +13032,6 @@
     },
     "done": true
   },
-  "twilightforest:recipes/combat/equipment/zombie_scepter": {
-    "criteria": {
-      "has_item": "2024-08-04 18:30:47 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/yagroot_ladder": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/food/food/campfired_meef": {
-    "criteria": {
-      "has_food": "2024-08-04 19:08:42 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/faf/deep_aether/yagroot_beehive": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/decorations/skyroot_crafting_table": {
-    "criteria": {
-      "has_the_recipe": "2024-08-04 16:37:30 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/vertical_yagroot_planks": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/building_blocks/db/aether/skyroot_beam": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
@@ -12951,99 +13056,9 @@
     },
     "done": true
   },
-  "aether_redux:recipes/building_blocks/sentry_base": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/yagroot_trapped_chest": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/redstone/yagroot_pressure_plate": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/yagroot_slab": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "umbral_skies:recipes/combat/ironwood_gloves": {
-    "criteria": {
-      "has_item": "2024-08-04 19:09:54 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/redstone/skyroot_trapdoor": {
     "criteria": {
       "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_seat": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/decorations/yagroot_wall": {
-    "criteria": {
-      "has_yagroot_log": "2024-08-04 16:37:26 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/chocolate_wafer": {
-    "criteria": {
-      "has_maze_wafer": "2024-08-04 19:09:44 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_beam": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/skyroot_wood": {
-    "criteria": {
-      "has_log": "2024-08-04 17:02:21 +0530"
-    },
-    "done": true
-  },
-  "suppsquared:recipes/decorations/deep_aether/item_shelf_yagroot": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_parquet": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_brick_wall_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_lattice": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/deep_aether/sign_post_yagroot": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
     },
     "done": true
   },
@@ -13053,63 +13068,9 @@
     },
     "done": true
   },
-  "umbral_skies:recipes/combat/naga_gloves": {
-    "criteria": {
-      "has_item": "2024-08-04 18:18:40 +0530"
-    },
-    "done": true
-  },
-  "aether:gold_dungeon": {
-    "criteria": {
-      "kill_sun_spirit": "2024-08-04 17:17:10 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/q/aether/skyroot_ladder": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_tile_slab_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/magic_map_focus": {
-    "criteria": {
-      "has_berries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_dinner": {
-    "criteria": {
-      "meef_stroganoff": "2024-08-04 19:13:01 +0530"
-    },
-    "done": false
-  },
-  "twilightforest:recipes/food/food/smelted_meef": {
-    "criteria": {
-      "has_food": "2024-08-04 19:08:42 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2024-08-04 18:12:07 +0530"
-    },
-    "done": true
-  },
-  "lost_aether_content:platinum_dungeon": {
-    "criteria": {
-      "kill_boss": "2024-08-04 17:31:03 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_brick_slab_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
     },
     "done": true
   },
@@ -13119,75 +13080,15 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/firefly_particle_spawner": {
-    "criteria": {
-      "has_jar": "2024-08-04 16:42:57 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/deep_aether/yagroot_chair": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/deep_aether/yagroot_palisade": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/bp/deep_aether/yagroot_backpack_shelf": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/food/food/smoked_meef": {
-    "criteria": {
-      "has_food": "2024-08-04 19:08:42 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/af/aether/skyroot_shelf": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
     },
     "done": true
   },
-  "deep_aether:recipes/redstone/yagroot_fence_gate": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_stairs": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/yagroot_bookshelf": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/meef_wrap": {
-    "criteria": {
-      "has_raw_meef": "2024-08-04 19:08:42 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/combat/golden_dart_shooter": {
     "criteria": {
       "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/skyjade_shield_repairing": {
-    "criteria": {
-      "has_skyjade_shield": "2024-08-04 17:06:49 +0530"
     },
     "done": true
   },
@@ -13209,155 +13110,9 @@
     },
     "done": true
   },
-  "twilightdelight:recipes/misc/torchberries_crate": {
-    "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "umbral_skies:recipes/combat/steeleaf_gloves": {
-    "criteria": {
-      "has_item": "2024-08-04 19:12:44 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/redstone/yagroot_button": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/magic_map": {
-    "criteria": {
-      "has_item": "2024-08-04 18:32:29 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/cooking/torchberry_juice": {
-    "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/deep_aether/yagroot_shelf": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/skyroot_axe_repairing": {
-    "criteria": {
-      "has_skyroot_axe": "2024-08-04 17:04:06 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/deep_aether/yagroot_flower_box": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/misc/ironwood_knife": {
-    "criteria": {
-      "has_ironwood_ingot": "2024-08-04 19:09:54 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:hill1": {
-    "criteria": {
-      "redcap": "2024-08-04 18:09:02 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/yagroot_post": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentry_pillar_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/milk_bottle": {
-    "criteria": {
-      "has_milk_bucket": "2024-08-04 16:46:28 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/deep_aether/yagroot_chest": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_trophy_pedestal": {
-    "criteria": {
-      "kill_lich": "2024-08-04 18:30:32 +0530",
-      "trophy_pedestal": "2024-08-04 18:36:44 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_stairs_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/tf/aether/hollow_skyroot_log": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_labyrinth": {
-    "criteria": {
-      "meef": "2024-08-04 19:13:00 +0530",
-      "kill_lich": "2024-08-04 18:30:32 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_hydra": {
-    "criteria": {
-      "stroganoff": "2024-08-04 19:13:01 +0530"
-    },
-    "done": false
-  },
-  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
-    "criteria": {
-      "has_brown_moa_egg": "2024-08-04 17:31:32 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/twilight_ice_cream": {
-    "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/deep_aether/yagroot_sanded_wood": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_slab_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/material/armor_shard_cluster": {
-    "criteria": {
-      "has_item": "2024-08-04 18:41:44 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentry_base_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
     },
     "done": true
   },
@@ -13373,39 +13128,9 @@
     },
     "done": true
   },
-  "deep_aether:recipes/transportation/yagroot_boat": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/material/smelted_ironwood_ingot": {
-    "criteria": {
-      "has_item": "2024-08-04 16:43:36 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/tf/deep_aether/yagroot_banister": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_ur_ghast": {
-    "criteria": {
-      "previous_progression": "2024-08-04 18:51:57 +0530"
-    },
-    "done": false
-  },
   "everycomp:recipes/decorations/tw/aether/skyroot_table": {
     "criteria": {
       "has_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_bricks_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
     },
     "done": true
   },
@@ -13421,63 +13146,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
-    "criteria": {
-      "has_item": "2024-08-04 19:12:44 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/redstone/skyroot_button": {
     "criteria": {
       "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentry_pillar": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/mossy_holystone_tiles_from_mossy_holystone_stonecutting": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/tf/deep_aether/hollow_yagroot_log": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/decorations/yagroot_fence": {
-    "criteria": {
-      "has_yagroot_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/skyroot_planks": {
-    "criteria": {
-      "has_logs": "2024-08-04 17:02:21 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/berry_torch": {
-    "criteria": {
-      "has_item": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2024-08-04 18:07:32 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/yagroot_wood": {
-    "criteria": {
-      "has_log": "2024-08-04 16:37:26 +0530"
     },
     "done": true
   },
@@ -13487,51 +13158,9 @@
     },
     "done": true
   },
-  "twilightdelight:recipes/food/twilight_spring": {
-    "criteria": {
-      "has_raw_ironwood": "2024-08-04 16:43:36 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/torchberry_cookie": {
-    "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "twilightforest:progress_yeti": {
-    "criteria": {
-      "previous_progression": "2024-08-04 18:30:32 +0530"
-    },
-    "done": false
-  },
-  "farmersdelight:main/eat_nourishing_food": {
-    "criteria": {
-      "nourishment": "2024-08-04 19:13:01 +0530"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/deep_aether/yagroot_bench": {
-    "criteria": {
-      "has_planks": "2024-08-04 16:37:28 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/redstone/skyroot_door": {
     "criteria": {
       "has_skyroot_planks": "2024-08-04 17:03:56 +0530"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/berry_stick": {
-    "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/mossy_holystone_wall": {
-    "criteria": {
-      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
     },
     "done": true
   },
@@ -13541,21 +13170,159 @@
     },
     "done": true
   },
-  "twilightdelight:recipes/food/torchberry_pie": {
+  "aether:recipes/tools/skyroot_axe_repairing": {
     "criteria": {
-      "has_torchberries": "2024-08-04 16:45:59 +0530"
+      "has_skyroot_axe": "2024-08-04 17:04:06 +0530"
     },
     "done": true
   },
-  "twilightforest:recipes/tools/charm_of_keeping_2": {
+  "deep_aether:recipes/skyjade_shield_repairing": {
     "criteria": {
-      "has_item": "2024-08-04 18:49:00 +0530"
+      "has_skyjade_shield": "2024-08-04 17:06:49 +0530"
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/firefly_jar": {
+  "aether:gold_dungeon": {
     "criteria": {
-      "has_item": "2024-08-04 18:23:14 +0530"
+      "kill_sun_spirit": "2024-08-04 17:17:10 +0530"
+    },
+    "done": true
+  },
+  "lost_aether_content:platinum_dungeon": {
+    "criteria": {
+      "kill_boss": "2024-08-04 17:31:03 +0530"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
+    "criteria": {
+      "has_brown_moa_egg": "2024-08-04 17:31:32 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_base": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_pillar_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_base_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_pillar": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 17:43:22 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_swet_jelly": {
+    "criteria": {
+      "has_swet_ball": "2024-08-04 17:45:31 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_gummy_swet": {
+    "criteria": {
+      "has_swet_ball": "2024-08-04 17:45:31 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_slab": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_tile_wall_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/enchant_mossy_holystone": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_tile_stairs_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/mossy_holystone_wall_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_brick_wall_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_tile_slab_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_brick_slab_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_stairs": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_stairs_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_slab_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_bricks_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/mossy_holystone_tiles_from_mossy_holystone_stonecutting": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/mossy_holystone_wall": {
+    "criteria": {
+      "has_mossy_holystone": "2024-08-04 17:49:45 +0530"
     },
     "done": true
   },
@@ -13568,6 +13335,338 @@
   "twilightforest:root": {
     "criteria": {
       "make_portal": "2024-08-04 18:04:12 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "skeleton_druid": "2024-08-04 18:05:16 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "canopy_sapling": "2024-08-04 19:14:06 +0530",
+      "twilight_oak_log": "2024-08-04 18:05:28 +0530",
+      "twilight_oak_wood": "2024-08-04 18:56:51 +0530",
+      "twilight_oak_sapling": "2024-08-04 18:05:30 +0530"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_planks": {
+    "criteria": {
+      "has_item": "2024-08-04 18:05:28 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/twilight_oak_wood": {
+    "criteria": {
+      "has_item": "2024-08-04 18:05:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-08-04 18:07:32 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:hill1": {
+    "criteria": {
+      "redcap": "2024-08-04 18:09:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-08-04 18:12:07 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2024-08-04 18:18:23 +0530",
+      "was_in_fight": "2024-08-04 18:30:32 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "was_in_fight": "2024-08-04 18:18:23 +0530"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/naga_gloves": {
+    "criteria": {
+      "has_item": "2024-08-04 18:18:40 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_jar": {
+    "criteria": {
+      "has_item": "2024-08-04 18:23:14 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2024-08-04 18:30:32 +0530",
+      "trophy_pedestal": "2024-08-04 18:36:44 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2024-08-04 19:13:00 +0530",
+      "kill_lich": "2024-08-04 18:30:32 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2024-08-04 18:30:32 +0530"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/combat/equipment/zombie_scepter": {
+    "criteria": {
+      "has_item": "2024-08-04 18:30:47 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map_focus": {
+    "criteria": {
+      "focus": "2024-08-04 18:32:29 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map": {
+    "criteria": {
+      "has_item": "2024-08-04 18:32:29 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "previous_progression": "2024-08-04 18:36:44 +0530",
+      "was_in_fight": "2024-08-04 18:51:57 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/naga_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2024-08-04 18:36:49 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/armor_shard_cluster": {
+    "criteria": {
+      "has_item": "2024-08-04 18:41:44 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/charm_of_keeping_2": {
+    "criteria": {
+      "has_item": "2024-08-04 18:49:00 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2024-08-04 18:51:57 +0530"
+    },
+    "done": false
+  },
+  "supplementaries:recipes/feather_block_uncrafting": {
+    "criteria": {
+      "has_feather_block": "2024-08-04 18:55:06 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_uncrafting_table": "2024-08-04 18:55:25 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/campfired_meef": {
+    "criteria": {
+      "has_food": "2024-08-04 19:08:42 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smelted_meef": {
+    "criteria": {
+      "has_food": "2024-08-04 19:08:42 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smoked_meef": {
+    "criteria": {
+      "has_food": "2024-08-04 19:08:42 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/meef_wrap": {
+    "criteria": {
+      "has_raw_meef": "2024-08-04 19:08:42 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/chocolate_wafer": {
+    "criteria": {
+      "has_maze_wafer": "2024-08-04 19:09:44 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/ironwood_block": {
+    "criteria": {
+      "has_item": "2024-08-04 19:09:54 +0530"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/ironwood_gloves": {
+    "criteria": {
+      "has_item": "2024-08-04 19:09:54 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/ironwood_knife": {
+    "criteria": {
+      "has_ironwood_ingot": "2024-08-04 19:09:54 +0530"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/steeleaf_knife": {
+    "criteria": {
+      "has_steeleaf_ingot": "2024-08-04 19:12:44 +0530"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/steeleaf_gloves": {
+    "criteria": {
+      "has_item": "2024-08-04 19:12:44 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
+    "criteria": {
+      "has_item": "2024-08-04 19:12:44 +0530"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2024-08-04 19:13:01 +0530"
+    },
+    "done": false
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "stroganoff": "2024-08-04 19:13:01 +0530"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2024-08-04 19:13:01 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/dispenser_minecart": {
+    "criteria": {
+      "has_dispenser": "2024-08-04 21:34:13 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/apple_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chocolate_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/chocolate_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530",
+      "has_the_recipe": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/salmonberry_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cheesecake": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-08-04 21:42:51 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/enchanted_membrane": {
+    "criteria": {
+      "has_item.minecraft.phantom_membrane": "2024-08-04 22:42:29 +0530"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/phantom_trophy": {
+    "criteria": {
+      "has_phantom_trophy": "2024-08-04 22:42:29 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_shovel_repairing": {
+    "criteria": {
+      "has_diamond_shovel": "2024-08-04 23:23:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_from_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_weathered_copper": "2024-08-05 00:03:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_copper_from_honeycomb": {
+    "criteria": {
+      "has_weathered_copper": "2024-08-05 00:03:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_weathered_copper": "2024-08-05 00:03:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_stonecutting": {
+    "criteria": {
+      "has_weathered_copper": "2024-08-05 00:03:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/weathered_cut_copper": {
+    "criteria": {
+      "has_weathered_copper": "2024-08-05 00:03:19 +0530"
+    },
+    "done": true
+  },
+  "twigs:recipes/copper_pillar/weathered_copper_pillar_stonecutting": {
+    "criteria": {
+      "has_cut_copper_slab": "2024-08-05 00:03:19 +0530"
     },
     "done": true
   },
