@@ -1,0 +1,17 @@
+{
+	id: "2ba6f877-3156-3275-adeb-111cd210cb8d"
+	type: "player"
+	player_name: "buhahaha"
+	ranks: {
+		2ba6f877-3156-3275-adeb-111cd210cb8d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "buhahaha"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59F3FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

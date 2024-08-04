@@ -56,6 +56,7 @@
       "minecraft:stony_shore": "2024-08-01 18:46:29 +0530",
       "minecraft:dripstone_caves": "2024-08-02 17:17:22 +0530",
       "minecraft:grove": "2024-08-02 16:59:12 +0530",
+      "minecraft:forest": "2024-08-04 16:41:20 +0530",
       "minecraft:ocean": "2024-08-01 19:44:00 +0530",
       "minecraft:frozen_peaks": "2024-08-01 18:10:29 +0530",
       "minecraft:deep_dark": "2024-08-01 18:29:13 +0530",
@@ -1957,6 +1958,7 @@
       "cooked_mutton": "2024-08-02 16:37:15 +0530",
       "cooked_beef": "2024-08-01 17:46:57 +0530",
       "baked_potato": "2024-08-02 18:01:41 +0530",
+      "beef": "2024-08-04 17:07:52 +0530",
       "apple": "2024-08-01 19:23:49 +0530",
       "potato": "2024-08-02 16:25:15 +0530",
       "mutton": "2024-08-01 15:50:02 +0530",
@@ -2869,6 +2871,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-08-03 16:58:04 +0530",
+      "minecraft:pillager": "2024-08-04 16:42:16 +0530",
       "minecraft:skeleton": "2024-08-01 18:57:15 +0530",
       "minecraft:hoglin": "2024-08-02 18:27:48 +0530",
       "minecraft:spider": "2024-08-01 21:48:47 +0530",
@@ -7226,15 +7229,94 @@
     },
     "done": true
   },
-  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+  "quark:apply_color_rune": {
     "criteria": {
-      "has_golden_pendant": "2024-08-04 01:19:15 +0530"
+      "rune_blank": "2024-08-03 23:54:26 +0530"
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_shulker_box": {
+  "repurposed_structures:mineshafts": {
     "criteria": {
-      "has_tag_c_chest": "2024-08-04 00:57:07 +0530"
+      "in_mineshaft_crimson": "2024-08-04 00:05:49 +0530"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2024-08-04 00:06:35 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-04 00:06:35 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2024-08-04 00:06:35 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_leggings_repairing": {
+    "criteria": {
+      "has_chainmail_leggings": "2024-08-04 00:16:17 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-08-04 00:30:31 +0530"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-08-04 00:32:54 +0530"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-08-04 00:32:54 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:explore_aether": {
+    "criteria": {
+      "aether:skyroot_grove": "2024-08-04 16:52:50 +0530",
+      "aether:skyroot_woodland": "2024-08-04 00:33:08 +0530",
+      "deep_aether:aerglow_forest": "2024-08-04 00:41:02 +0530",
+      "deep_aether:mystic_aerglow_forest": "2024-08-04 00:33:10 +0530",
+      "aether:skyroot_meadow": "2024-08-04 00:39:12 +0530",
+      "aether:skyroot_forest": "2024-08-04 16:51:27 +0530",
+      "deep_aether:yagroot_swamp": "2024-08-04 00:34:39 +0530",
+      "deep_aether:aerlavender_fields": "2024-08-04 16:54:50 +0530"
+    },
+    "done": false
+  },
+  "aether:recipes/building_blocks/ambrosium_block": {
+    "criteria": {
+      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/veridium_lantern": {
+    "criteria": {
+      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/enchanted_ring": {
+    "criteria": {
+      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2024-08-04 00:36:59 +0530"
     },
     "done": true
   },
@@ -7247,18 +7329,6 @@
   "aether:recipes/redstone/holystone_pressure_plate": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/blue_tall_stool": {
-    "criteria": {
-      "has_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stairs": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7280,57 +7350,9 @@
     },
     "done": true
   },
-  "aether_redux:recipes/building_blocks/carved_base_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_sword": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:silver_dungeon": {
-    "criteria": {
-      "kill_valkyrie_queen": "2024-08-04 01:24:51 +0530"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/blue_curtain": {
-    "criteria": {
-      "has_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/carved_base": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/altar": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2024-08-04 01:16:28 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/ice_ring_from_freezing": {
-    "criteria": {
-      "has_ring": "2024-08-04 01:22:56 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/carved_pillar": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7346,51 +7368,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_leggings": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/holystone_brick_wall_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "quark:apply_color_rune": {
-    "criteria": {
-      "rune_blank": "2024-08-03 23:54:26 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_sword_repairing": {
-    "criteria": {
-      "has_zanite_sword": "2024-08-04 01:18:49 +0530"
-    },
-    "done": true
-  },
-  "aether:bronze_dungeon": {
-    "criteria": {
-      "kill_slider": "2024-08-04 00:49:07 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/ambrosium_block": {
-    "criteria": {
-      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_axe": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7412,93 +7392,9 @@
     },
     "done": true
   },
-  "lost_aether_content:recipes/combat/zanite_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hollow_skyroot_log_from_skyroot_log_stonecutting": {
-    "criteria": {
-      "has_skyroot_log": "2024-08-04 01:27:49 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/building_blocks/holystone_brick_stairs_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/blue_cape_blue_wool": {
-    "criteria": {
-      "has_blue_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/enchanted_dart_enchanting": {
-    "criteria": {
-      "has_golden_dart": "2024-08-04 00:50:29 +0530"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/blue_sheet": {
-    "criteria": {
-      "has_blue_sheet": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/blue_stool": {
-    "criteria": {
-      "has_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/veridium_lantern": {
-    "criteria": {
-      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
-    },
-    "done": true
-  },
-  "aether:zanite": {
-    "criteria": {
-      "zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/diamond_pickaxe_repairing": {
-    "criteria": {
-      "has_diamond_pickaxe": "2024-08-04 00:30:31 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_boots": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_helmet_repairing": {
-    "criteria": {
-      "has_diamond_helmet": "2024-08-04 01:16:31 +0530"
     },
     "done": true
   },
@@ -7508,97 +7404,15 @@
     },
     "done": true
   },
-  "aether:recipes/misc/ice_pendant_from_freezing": {
-    "criteria": {
-      "has_pendant": "2024-08-04 01:19:15 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/nature_staff": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentry_base": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/building_blocks/holystone_bricks_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
     },
     "done": true
   },
-  "aether:recipes/decorations/carved_wall": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:obtain_grand_medal": {
-    "criteria": {
-      "obtain_grand_medal": "2024-08-04 01:12:03 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_boots_repairing": {
-    "criteria": {
-      "has_diamond_boots": "2024-08-04 01:16:50 +0530"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2024-08-04 00:32:54 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:explore_aether": {
-    "criteria": {
-      "aether:skyroot_woodland": "2024-08-04 00:33:08 +0530",
-      "deep_aether:aerglow_forest": "2024-08-04 00:41:02 +0530",
-      "deep_aether:mystic_aerglow_forest": "2024-08-04 00:33:10 +0530",
-      "aether:skyroot_meadow": "2024-08-04 00:39:12 +0530",
-      "deep_aether:yagroot_swamp": "2024-08-04 00:34:39 +0530"
-    },
-    "done": false
-  },
   "deep_aether:recipes/building_blocks/big_holystone_bricks_slab_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_carpet": {
-    "criteria": {
-      "has_blue_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "comforts:hammock_blue": {
-    "criteria": {
-      "has_blue_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether:blue_aercloud": {
-    "criteria": {
-      "blue_aercloud": "2024-08-04 00:36:59 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/skyroot_wood": {
-    "criteria": {
-      "has_log": "2024-08-04 01:27:49 +0530"
     },
     "done": true
   },
@@ -7614,21 +7428,9 @@
     },
     "done": true
   },
-  "aether:recipes/tools/zanite_pickaxe": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
   "delightful:recipes/knives/holystone_knife": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/carved_pillar_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7644,51 +7446,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_gloves": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "repurposed_structures:mineshafts": {
-    "criteria": {
-      "in_mineshaft_crimson": "2024-08-04 00:05:49 +0530"
-    },
-    "done": false
-  },
   "deep_aether:recipes/building_blocks/big_holystone_bricks_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/blue_sofa": {
-    "criteria": {
-      "has_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_chestplate": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/zanite_block": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_hoe": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:the_aether": {
-    "criteria": {
-      "the_aether": "2024-08-04 00:32:54 +0530"
     },
     "done": true
   },
@@ -7710,39 +7470,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2024-08-04 01:27:12 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/building_blocks/holystone_stairs_from_holystone_stonecutting": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_pendant_repairing": {
-    "criteria": {
-      "has_zanite_pendant": "2024-08-04 00:58:25 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_chestplate_repairing": {
-    "criteria": {
-      "has_diamond_chestplate": "2024-08-04 01:16:50 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_helmet": {
-    "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7752,51 +7482,15 @@
     },
     "done": true
   },
-  "aether_redux:recipes/building_blocks/sentry_pillar_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/building_blocks/holystone_bricks": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
     },
     "done": true
   },
-  "aether:recipes/combat/wood_zanite_vanilla_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/zanite_knife": {
-    "criteria": {
-      "has_gems/zanite": "2024-08-04 01:18:52 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_leggings_repairing": {
-    "criteria": {
-      "has_diamond_leggings": "2024-08-04 01:16:28 +0530"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/incubator": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentry_base_from_sentry_stone_stonecutting": {
-    "criteria": {
-      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
     },
     "done": true
   },
@@ -7809,12 +7503,6 @@
   "aether:recipes/building_blocks/holystone_slab": {
     "criteria": {
       "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/carved_slab": {
-    "criteria": {
-      "has_carved_stone": "2024-08-04 00:49:08 +0530"
     },
     "done": true
   },
@@ -7842,27 +7530,111 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_pendant": {
+  "aether:recipes/tools/holystone_shovel": {
     "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
+      "has_holystone": "2024-08-04 00:40:07 +0530"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/cooked_rice": {
+  "aether:recipes/building_blocks/mossy_holystone_with_vine": {
     "criteria": {
-      "has_rice": "2024-08-04 00:06:35 +0530"
+      "has_holystone": "2024-08-04 00:40:07 +0530"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/fried_rice": {
+  "aether:recipes/building_blocks/mossy_holystone_with_moss": {
     "criteria": {
-      "has_any_ingredient": "2024-08-04 00:06:35 +0530"
+      "has_holystone": "2024-08-04 00:40:07 +0530"
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_ring_repairing": {
+  "deep_aether:recipes/building_blocks/holystone_tiles_from_holystone_stonecutting": {
     "criteria": {
-      "has_zanite_ring": "2024-08-04 00:58:27 +0530"
+      "has_holystone": "2024-08-04 00:40:07 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/aether_coarse_dirt": {
+    "criteria": {
+      "has_aether_dirt": "2024-08-04 00:40:41 +0530"
+    },
+    "done": true
+  },
+  "aether:bronze_dungeon": {
+    "criteria": {
+      "kill_slider": "2024-08-04 00:49:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_base_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_base": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_pillar": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/sentry_stone_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_stairs_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_pillar_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/carved_wall_from_carved_stone_stonecutting": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/carved_slab": {
+    "criteria": {
+      "has_carved_stone": "2024-08-04 00:49:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/enchanted_dart_enchanting": {
+    "criteria": {
+      "has_golden_dart": "2024-08-04 00:50:29 +0530"
     },
     "done": true
   },
@@ -7872,15 +7644,27 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_ring": {
+  "aether:recipes/building_blocks/carved_stone_from_sentry_stone_stonecutting": {
     "criteria": {
-      "has_zanite": "2024-08-04 01:18:52 +0530"
+      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
     },
     "done": true
   },
-  "aether_redux:recipes/combat/enchanted_ring": {
+  "aether_redux:recipes/building_blocks/sentry_base": {
     "criteria": {
-      "has_ambrosium_shard": "2024-08-04 00:34:49 +0530"
+      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_pillar_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentry_base_from_sentry_stone_stonecutting": {
+    "criteria": {
+      "has_sentry_stone": "2024-08-04 00:50:37 +0530"
     },
     "done": true
   },
@@ -7890,15 +7674,267 @@
     },
     "done": true
   },
-  "aether:recipes/building_blocks/skyroot_planks": {
+  "bclib:recipes/decorations/tag_shulker_box": {
     "criteria": {
-      "has_logs": "2024-08-04 01:27:49 +0530"
+      "has_tag_c_chest": "2024-08-04 00:57:07 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant_repairing": {
+    "criteria": {
+      "has_zanite_pendant": "2024-08-04 00:58:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring_repairing": {
+    "criteria": {
+      "has_zanite_ring": "2024-08-04 00:58:27 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:obtain_grand_medal": {
+    "criteria": {
+      "obtain_grand_medal": "2024-08-04 01:12:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-08-04 01:16:28 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-08-04 01:16:28 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-08-04 01:16:31 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-08-04 01:16:50 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-08-04 01:16:50 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword_repairing": {
+    "criteria": {
+      "has_zanite_sword": "2024-08-04 01:18:49 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_axe": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/combat/zanite_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:zanite": {
+    "criteria": {
+      "zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_boots": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/nature_staff": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_gloves": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_chestplate": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/zanite_block": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_hoe": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_helmet": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/wood_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/zanite_knife": {
+    "criteria": {
+      "has_gems/zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring": {
+    "criteria": {
+      "has_zanite": "2024-08-04 01:18:52 +0530"
     },
     "done": true
   },
   "aether:recipes/tools/zanite_shovel": {
     "criteria": {
       "has_zanite": "2024-08-04 01:18:52 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pendant": "2024-08-04 01:19:15 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_pendant_from_freezing": {
+    "criteria": {
+      "has_pendant": "2024-08-04 01:19:15 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pendant": "2024-08-04 01:19:15 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_ring_from_freezing": {
+    "criteria": {
+      "has_ring": "2024-08-04 01:22:56 +0530"
+    },
+    "done": true
+  },
+  "aether:silver_dungeon": {
+    "criteria": {
+      "kill_valkyrie_queen": "2024-08-04 01:24:51 +0530"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/blue_tall_stool": {
+    "criteria": {
+      "has_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/blue_curtain": {
+    "criteria": {
+      "has_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/blue_cape_blue_wool": {
+    "criteria": {
+      "has_blue_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blue_sheet": {
+    "criteria": {
+      "has_blue_sheet": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/blue_stool": {
+    "criteria": {
+      "has_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "comforts:hammock_blue": {
+    "criteria": {
+      "has_blue_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/blue_sofa": {
+    "criteria": {
+      "has_wool": "2024-08-04 01:27:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2024-08-04 01:27:12 +0530"
     },
     "done": true
   },
@@ -7914,57 +7950,207 @@
     },
     "done": true
   },
-  "aether:recipes/tools/holystone_shovel": {
-    "criteria": {
-      "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/rice_bag": {
-    "criteria": {
-      "has_rice": "2024-08-04 00:06:35 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_with_vine": {
-    "criteria": {
-      "has_holystone": "2024-08-04 00:40:07 +0530"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_pendant": "2024-08-04 01:19:15 +0530"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/building_blocks/aether_coarse_dirt": {
-    "criteria": {
-      "has_aether_dirt": "2024-08-04 00:40:41 +0530"
-    },
-    "done": true
-  },
   "comforts:sleeping_bag_blue": {
     "criteria": {
       "has_blue_wool": "2024-08-04 01:27:12 +0530"
     },
     "done": true
   },
-  "aether:recipes/combat/chainmail_leggings_repairing": {
+  "minecraft:recipes/building_blocks/hollow_skyroot_log_from_skyroot_log_stonecutting": {
     "criteria": {
-      "has_chainmail_leggings": "2024-08-04 00:16:17 +0530"
+      "has_skyroot_log": "2024-08-04 01:27:49 +0530"
     },
     "done": true
   },
-  "aether:recipes/building_blocks/mossy_holystone_with_moss": {
+  "aether:recipes/building_blocks/skyroot_wood": {
     "criteria": {
-      "has_holystone": "2024-08-04 00:40:07 +0530"
+      "has_log": "2024-08-04 01:27:49 +0530"
     },
     "done": true
   },
-  "deep_aether:recipes/building_blocks/holystone_tiles_from_holystone_stonecutting": {
+  "aether:recipes/building_blocks/skyroot_planks": {
     "criteria": {
-      "has_holystone": "2024-08-04 00:40:07 +0530"
+      "has_logs": "2024-08-04 01:27:49 +0530"
+    },
+    "done": true
+  },
+  "magnumtorch:recipes/decorations/emerald_magnum_torch": {
+    "criteria": {
+      "has_emerald": "2024-08-04 16:04:47 +0530"
+    },
+    "done": true
+  },
+  "aether:phoenix_armor": {
+    "criteria": {
+      "phoenix_chestplate": "2024-08-04 17:17:27 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/cold_parachute": {
+    "criteria": {
+      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/wrench": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "aether:mount_phyg": {
+    "criteria": {
+      "mount_phyg": "2024-08-04 16:47:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/vanilla_gummy_swet": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_swet_jelly": {
+    "criteria": {
+      "has_swet_ball": "2024-08-04 17:02:25 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_gummy_swet": {
+    "criteria": {
+      "has_swet_ball": "2024-08-04 17:02:25 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-08-04 16:04:47 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/vanilla_swet_jelly": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/marshmallow_stick": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sugar_cube": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "aether:gold_dungeon": {
+    "criteria": {
+      "kill_sun_spirit": "2024-08-04 17:17:10 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
+    "criteria": {
+      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/cog_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2024-08-04 16:52:05 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/food/cooked_quail": {
+    "criteria": {
+      "has_raw_quail": "2024-08-04 16:51:43 +0530"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candy": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/food/cooked_quail_from_smoker": {
+    "criteria": {
+      "has_raw_quail": "2024-08-04 16:51:43 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2024-08-04 16:52:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-08-04 17:09:35 +0530"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_emerald_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/emerald]": "2024-08-04 16:04:47 +0530"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/golden_aercloud_enchanting": {
+    "criteria": {
+      "has_cold_aercloud": "2024-08-04 16:53:27 +0530"
+    },
+    "done": true
+  },
+  "friendsandfoes:recipes/redstone/copper_button": {
+    "criteria": {
+      "has_copper_ingot": "2024-08-04 16:07:08 +0530"
     },
     "done": true
   },
