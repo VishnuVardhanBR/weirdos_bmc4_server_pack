@@ -1,1 +1,4 @@
-/mods
+/mods/*
+
+# needed dir, it dynamically update everytime mods load
+!/mods/.connector/
