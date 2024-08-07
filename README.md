@@ -1,10 +1,8 @@
-# BetterMinecraft4 Server Pack Saves for friends
-[Source](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/5418541)
-
-Commiting updates except the mods folder.
+# Minecarb Serber for all our [weirdos](https://weirdos.info).
+[Better MC [FORGE] - BMC4](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/5418541) Serverpack v28
 
 1. Clone the repo.
-2. [Download](https://drive.google.com/file/d/1SO1_QQ8tT469UmlXObPCItgMuEf_zHft/view?usp=sharing) and unzip the mods folder in it.  
+2. [Download](https://drive.google.com/file/d/13bqnDH_jbMvBqEanOP6BlfwuVNOvhail/) and unzip into mods folder.  
 
-
-### PLS DOWNLOAD v28 OF THE MODPACK CLIENT (IT WILL NOT WORK WITH ANYTHING NEWER(latest is v30.5))
+> ### For clients:
+> only download v28 modpack client as the server WILL NOT connect to aythin older than v28 (latest client version = v30.5)
