@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "f532bcd77c7f3a67b5404530d9614222"
+	name: "Sam#f532bcd7"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

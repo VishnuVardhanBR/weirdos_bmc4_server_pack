@@ -1,0 +1,17 @@
+{
+	id: "7697f149-1d29-342b-9cd2-0efc1dc87201"
+	type: "player"
+	player_name: "anon"
+	ranks: {
+		7697f149-1d29-342b-9cd2-0efc1dc87201: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "anon"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9CFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

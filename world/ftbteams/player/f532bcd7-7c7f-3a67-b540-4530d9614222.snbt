@@ -1,0 +1,17 @@
+{
+	id: "f532bcd7-7c7f-3a67-b540-4530d9614222"
+	type: "player"
+	player_name: "Sam"
+	ranks: {
+		f532bcd7-7c7f-3a67-b540-4530d9614222: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Sam"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFC259"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "7697f1491d29342b9cd20efc1dc87201"
+	name: "anon#7697f149"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
