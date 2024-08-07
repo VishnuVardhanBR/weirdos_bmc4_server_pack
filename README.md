@@ -1,5 +1,5 @@
 # Minecarb Serber for all our [weirdos](https://weirdos.info).
-[Better MC [FORGE] - BMC4](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/5418541) Serverpack v28
+This repo uses "Better MC [FORGE] - BMC4" Serverpack [v28](https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/5418541) aiming to commit world data after every playsession. 
 
 1. Clone the repo.
 2. [Download](https://drive.google.com/file/d/13bqnDH_jbMvBqEanOP6BlfwuVNOvhail/) and unzip into mods folder.  
